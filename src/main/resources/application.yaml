@@ -1,0 +1,16 @@
+spring:
+  security:
+    user:
+      name: "user"
+      password: "password"
+  sql:
+    init:
+      mode: always
+  datasource:
+    url: jdbc:mysql://localhost/demo
+    username: root
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true

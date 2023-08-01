@@ -1,0 +1,2 @@
+INSERT INTO accounts (user_name, password, enabled, expiration, password_expiration, login_failure_count)
+VALUES ('user', '+xOhYR6Dc5DKT6hVsMgtOVDq9L94EK7UAUrRxlvGmJADcb7su6SAmCm3pw9c3vRn', true, '9999-12-31', '9999-12-31', 0);
